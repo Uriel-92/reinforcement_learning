@@ -4,14 +4,21 @@ Python package used
 Neural network 
 
 -import os
+
 -from stable_baselines3 import PPO
+
 -from stable_baselines3.common.callbacks import BaseCallback
 
 For play Super Mario and visualize the frames
 
-from gym.wrappers import GrayScaleObservation
-from stable_baselines3.common.vec_env import VecFrameStack, DummyVecEnv
-from matplotlib import pyplot as plt
-import gym_super_mario_bros
-from nes_py.wrappers import JoypadSpace
-from gym_super_mario_bros.actions import SIMPLE_MOVEMENT
+-from gym.wrappers import GrayScaleObservation
+
+-from stable_baselines3.common.vec_env import VecFrameStack, DummyVecEnv
+
+-from matplotlib import pyplot as plt
+
+-import gym_super_mario_bros
+
+-from nes_py.wrappers import JoypadSpace
+
+-from gym_super_mario_bros.actions import SIMPLE_MOVEMENT
